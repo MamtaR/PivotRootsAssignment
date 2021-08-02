@@ -1,0 +1,241 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+   
+  <!--   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+<section class="main">
+	
+		<div class="container">
+			<div class="top">
+        
+			<div class="row">
+			  
+	  
+			 
+			  <div class="col-md-12">
+				 
+	  
+				  
+				  <div class="card card-nav-tabs card-plain">
+					  <div class="card-header">
+						  <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+						  <div class="nav-tabs-navigation">
+							  <div class="nav-tabs-wrapper">
+								  <ul class="nav nav-tabs" data-tabs="tabs">
+									  <li class="nav-item">
+										  <a class="nav-link active" href="#yearly" data-toggle="tab">Yearly Courses</a>
+									  </li>
+									  <li class="nav-item">
+										  <a class="nav-link" href="#monthly" data-toggle="tab">Monthly Courses</a>
+									  </li>
+									  
+								  </ul>
+							  </div>
+						  </div>
+					  </div><div class="card-body ">
+						  <div class="tab-content">
+							  <div class="tab-pane active" id="yearly">
+								  
+								  <div class="row">
+									  <div class="col-md-3">
+										  <form action="">
+										
+											  <select name="gradey" id="gradey" style="width: 60%;">
+											 
+											   </select>
+		   
+										 </form>	
+							  
+									  </div>
+									  <div class="col-md-9">
+										  <ul class="nav nav-pills nav-fill">
+											  <li class="nav-item">
+												<a class="nav-link active" aria-current="page" id="boards" href="#">CBSE</a>
+											  </li>
+											  <li class="nav-item">
+												  <a class="nav-link active" aria-current="page" id="boards" href="#">ICSE</a>
+												</li>
+												<li class="nav-item">
+												  <a class="nav-link active" aria-current="page" id="boards" href="#">ICSE</a>
+												</li>
+												<li class="nav-item">
+												  <a class="nav-link active" aria-current="page" id="boards" href="#">ICSE</a>
+												</li>
+												<li class="nav-item">
+												  <a class="nav-link active" aria-current="page" id="boards" href="#">ICSE</a>
+												</li>
+											  
+											</ul>
+										  
+									  </div>
+								  </div> 
+								  <div class="row">
+									  <div class="col-md-2">
+										  <p>Total Sessions</p>
+										  <p id="totalsession"></p>
+									  </div>
+									  <div class="col-md-2">
+										  <p>Online Pre Assessments</p>
+										  <p id="onlinepre"></p>
+									  </div>
+									  <div class="col-md-2">
+										  <p>Online Post Assessments</p>
+										  <p id="onlinepost"></p>
+									  </div>
+									  <div class="col-md-2">
+										  <p>Online Practice</p>
+										  <p id="onlineprac">32</p>
+									  </div>
+									  <div class="col-md-2">
+										  <p>Online Tests</p>
+										  <p id="onlinetests"></p>
+									  </div>
+									  <div class="col-md-2">
+										  <p>Career Counselling Sessions with Edu Coach</p>
+										  <p id="career"></p>
+									  </div>
+								  </div>
+								  <h3>Course Topics Include</h3>
+								  <div class="row">
+									  
+									  <div class="col-md-4">
+										  <p>Syllabus</p>
+										  <p id="syllabus"></p>	
+									  </div>
+									  <div class="col-md-4">
+										  <p>Syllabus</p>
+										  <p id="realnumber"></p>	
+									  </div>
+									  <div class="col-md-4">
+										  <p>Syllabus</p>
+										  <p id="Poly"></p>	
+									  </div>
+  
+									  
+								  </div>
+								 
+						  </div>
+							  <div class="tab-pane" id="monthly">
+								  <form action="">
+										
+									  <select name="grade" id="grade">
+									 
+									   </select>
+   
+								 </form>
+  
+								 <div class="container">
+									 
+									 <div class="row">
+										 
+										 <div class="rowdata">
+										 <div class="col-md-12">
+											 <input type="radio" id="month1" name="month1" value="">
+											   <label for="month1" id="mnth"> </label>
+											   <label><span id="price">  </span> <br><p class="disc"><span id="discount"></span>  % OFF</p></label>
+											   <label>&dollar; <span id="perclass"> </span> per session<br> 5 sessions</label>
+										 </div>
+									 </div>
+									 
+									 <div class="rowdata">
+										 <div class="col-md-12">
+											 <input type="radio" id="month1" name="month1" value="">
+											   <label for="month1" id="mnth1"> </label>
+											   <label><span id="price1">  </span> <br><p class="disc"><span id="discount1"></span>  % OFF</p></label>
+											   <label>&dollar; <span id="perclass1"> </span> per session<br> 10 sessions</label>
+										 </div>
+									 </div>
+									 
+									 <div class="rowdata">
+										 <div class="col-md-12">
+											 <input type="radio" id="month1" name="month1" value="">
+											   <label for="month1" id="mnth2"> </label>
+											   <label><span id="price2">  </span> <br><p class="disc"><span id="discount2"></span>  % OFF</p></label>
+											   <label>&dollar; <span id="perclass2"> </span> per session<br> 20 sessions</label>
+										 </div>
+									 </div>
+									 
+										 <div class="rowdata">
+											 <div class="col-md-12">
+												 <input type="radio" id="month1" name="month1" value="">
+												   <label for="month1" id="mnth3"> </label>
+												   <label><span id="price3">  </span> <br><p class="disc"><span id="discount3"></span>  % OFF</p></label>
+												   <label>&dollar; <span id="perclass3"> </span> per session<br> 45 sessions</label>
+											 </div>
+									 </div>
+  
+								 </div>
+							 </div>
+							  </div>
+							  
+						  </div>
+					  </div></div>
+				  <!-- End Tabs on plain Card -->
+			  </div>
+		  </div>
+		  <div class="info">
+		  <div class="row">
+			  	
+					<div class="col-md-4">
+						<p class="sec1">
+							Monthly classes let you choose your own course topics
+						</p>
+					</div>
+					<div class="col-md-4">
+						<p class="sec2">
+							Each session lasts 45 minutes
+						</p>
+					</div>
+					<div class="col-md-4">
+						<button class="btn btn-primary book">
+							Book Now
+						</button>
+					</div>
+				</div>
+
+		  </div>
+		  <div class="row">
+			  <div class="col-md-12">
+				  <p class="copy">
+					  Refund same day <a href="#">terms and conditions</a> apply*
+				  </p>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+	
+    
+	
+	</section>
+    
+    
+    
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+
+<script type="text/javascript">$(document).ready(function() {
+    $('body').bootstrapMaterialDesign();
+    
+    
+});</script>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
